@@ -1,6 +1,6 @@
 # Vorbereitungsfragen zum Grundkurs für Wettfahrtleiter (Bayerischer Segelverband).
 # Quelle: Vorbereitungsfragen.pdf, Teil "Fragen für das Verständnis".
-# Ohne `correct`: reine Abstimmung, die Lösung wird mündlich besprochen.
+# Lösungen und Hinweise aus den Wettfahrtregeln Segeln 2025–2028 (deutscher Text) hergeleitet.
 # Flaggen: eingebettet von Wikimedia Commons (upload.wikimedia.org), nicht im Repo.
 
 - question: "Ab wann befindet sich ein Boot in der Wettfahrt?"
@@ -9,12 +9,33 @@
     - "ab Startsignal"
     - "ab Ankündigungssignal"
     - "ab Vorbereitungssignal"
+  correct: C
+  explanation: |
+    **Definition „In einer Wettfahrt befindlich“**: Ein Boot befindet sich in einer Wettfahrt
+    von seinem Vorbereitungssignal an, bis es durchs Ziel gegangen und klar von der Ziellinie
+    und den Zielbahnmarken ist oder aufgibt, oder bis das Wettfahrtkomitee einen Allgemeinen
+    Rückruf, eine Verschiebung oder einen Abbruch signalisiert.
+
+    - Ankündigungssignal (5 Minuten vor dem Start, Regel 26): zu früh
+    - Startsignal: zu spät
 
 - question: "In den Segelanweisungen ist festgelegt: „Der geplante Zeitpunkt für das erste Ankündigungssignal ist an allen Wettfahrttagen 11:00 Uhr.“ Kann das Wettfahrtkomitee dies für den zweiten Tag auf 09:00 Uhr vorverlegen?"
   type: single
   answers:
     - "ja, durch Änderung der Segelanweisungen"
     - "nein, eine solche Änderung muss am Vortag rechtzeitig an der Tafel für Bekanntmachungen veröffentlicht werden."
+  correct: A
+  explanation: |
+    **Regel 90.2(c)**: Die Segelanweisungen können geändert werden, wenn die Änderung
+    schriftlich erfolgt und vor der in den Segelanweisungen festgelegten Zeit an der
+    offiziellen Tafel für Bekanntmachungen veröffentlicht wird.
+
+    - **A** ist richtig: Die Vorverlegung geht nur als formale Änderung der Segelanweisungen.
+    - **B** ist als „nein“ falsch. Der Hinweis auf die rechtzeitige Veröffentlichung am Vortag
+      stimmt aber: Bei den Standard-Segelanweisungen (Anhang S, 3.1) muss eine Änderung des
+      Wettfahrtzeitplans bis 20:00 Uhr am Vortag erscheinen.
+
+    Regel 25.2 verbietet nur, die Bedeutung von Signalen zu ändern, und steht hier nicht im Weg.
 
 - question: |
     Bei einem Start unter Flagge „Uniform“ ist ein Boot 30 Sekunden vor dem Startsignal im Dreieck, gebildet von den Enden der Startlinie und der ersten Bahnmarke, um beim Startsignal wieder hinter der Linie, wobei es um eines der Enden gefahren ist. Was muss das Wettfahrtkomitee tun? (Mehrere Antworten möglich)
@@ -26,6 +47,20 @@
     - "Allgemeinen Rückruf signalisieren"
     - "Die Wettfahrt weiterlaufen lassen"
     - "Die drei identifizierten Boote UFD werten"
+  correct:
+    - C
+    - D
+  explanation: |
+    **Regel 30.3 (U-Flaggen-Regel)**: Ein Boot, das in der letzten Minute vor seinem Startsignal
+    im Dreieck aus Startlinienenden und erster Bahnmarke war und identifiziert wird, muss ohne
+    Anhörung disqualifiziert werden (Wertung UFD nach Regel A10, ohne Anhörung nach A5.1(b)).
+    Das Umrunden eines Endes heilt den Verstoß nicht; das ist nur bei Flagge I (Regel 30.1) so.
+
+    - **A** falsch: Das Boot ist beim Startsignal nicht auf der Bahnseite, und Regel 29.1 gilt
+      bei Regel 30.3 nicht (letzter Satz).
+    - **B** falsch: Ein Allgemeiner Rückruf (Regel 29.2) ist nur zulässig, wenn Boote nicht
+      identifiziert werden können oder ein Fehler im Startverfahren vorlag.
+    - **C und D** richtig: Wettfahrt weiterlaufen lassen, die identifizierten Boote UFD werten.
 
 - question: |
     Beim Entfernen der Flagge „X-Ray“ ...
@@ -37,6 +72,15 @@
     - "müssen zwei Schallsignale gegeben werden"
     - "müssen drei Schallsignale gegeben werden"
     - "muss kein Schallsignal gegeben werden"
+  correct: D
+  explanation: |
+    **Regel 29.1 und Wettfahrtsignale**: Flagge X (Einzelrückruf) wird mit einem Ton gezeigt.
+    Für das Entfernen ist kein Schallsignal vorgesehen, anders als etwa bei AP, N oder den
+    Vorbereitungssignalen.
+
+    Die Flagge muss gezeigt werden, bis alle betroffenen Boote vollständig auf der Vorstartseite
+    waren, spätestens bis vier Minuten nach dem Startsignal oder eine Minute vor einem späteren
+    Startsignal.
 
 - question: |
     Die Wettfahrt wird in der zweiten Runde an der Luvbahnmarke abgekürzt, welche Flaggen müssen gesetzt werden?
@@ -50,3 +94,13 @@
     - "es muss nur Flagge „Blau“ gesetzt werden"
     - "es muss nur Flagge „Sierra“ gesetzt werden"
     - "es muss Flagge „Sierra“ und „Charly“ mit „Minus“ gesetzt werden"
+  correct: C
+  explanation: |
+    **Regel 32.2**: Um die Bahn zu verkürzen, muss das Wettfahrtkomitee Flagge S mit zwei
+    Tönen zeigen, bevor das erste Boot die Ziellinie überquert. An einer zu rundenden Bahnmarke
+    ist die Ziellinie dann die Linie zwischen der Bahnmarke und einem Stab, der Flagge S zeigt.
+
+    - Weitere Flaggen verlangt die Regel nicht.
+    - Die Blaue Flagge kennzeichnet sonst ein Ende der Ziellinie (Wettfahrtsignale, Anhang S 11.1);
+      an der verkürzten Ziellinie bestimmt Flagge S das Ende.
+    - Flagge C mit „−“ (Regel 33(b)) verkürzt nur den nächsten Schenkel, nicht die Bahn.
