@@ -4,25 +4,30 @@ Fragen für Live-Abstimmungen mit [QuiQui](https://github.com/th-nuernberg/quiqu
 
 Das Repo folgt dem Format von [quiqui-questions](https://github.com/th-nuernberg/quiqui-questions): Fragen als YAML-Dateien, Sitzungseinstellungen in `config.yaml`.
 
-## Inhalt
+## Fragedateien
 
-| Datei | Zweck |
-|---|---|
-| `config.yaml` | QuiQui-Sitzung: `session_url`, `title`, `shuffle` |
-| `00-vorbereitungsfragen.yaml` | Vorbereitungsfragebogen des Bayerischen Segelverbands (Grundkurs für Wettfahrtleiter) |
-| `01-start-und-signale.yaml` | Demo: fünf bewertete Fragen zu Start, Signalen und Rückrufen (Regeln 26–30, Wettfahrtsignale) |
-| `02-ziel-wertung.yaml` | Demo: fünf bewertete Fragen zu Ziel, Zeitlimit und Wertung (Regel 35, Anhang A, Definitionen) |
+| Datei | Thema | Fragen | Bezug |
+|---|---|---|---|
+| `00-vorbereitungsfragen.yaml` | Verständnisfragen aus dem Vorbereitungsfragebogen des Bayerischen Segelverbands für den Grundkurs Wettfahrtleiter: Beginn der Wettfahrt, Änderung der Segelanweisungen, Startstrafen, Rückrufsignale, Bahnverkürzung | 5 | Definitionen, Regeln 26, 29, 30, 32, 90.2 |
+| `01-start-und-signale.yaml` | Start und Signale: Zeitnahme, Vorbereitungssignale, Verschiebung, Allgemeiner Rückruf, I-Flaggen-Regel | 5 | Regeln 26–30, Wettfahrtsignale |
+| `02-ziel-wertung.yaml` | Ziel, Zeitlimit und Wertung: Durchs-Ziel-Gehen, Wettfahrtzeitlimit, Wertung bei Aufgabe oder Disqualifikation, Wertungsabkürzungen | 5 | Definitionen, Regel 35, Anhang A |
+| `config.yaml` | QuiQui-Sitzung (`session_url`, `title`, `shuffle`) | | |
 
-## Beispiele für Fragensammlungen und Quellen
+## Aufbau einer Frage
 
-- [US Sailing: Basic Race Management Study Questions (2021)](https://www.ussailing.org/wp-content/uploads/2021/04/BRMS-Study-Questions-2021.pdf): englisch, 9 Seiten Multiple-Choice zu Veranstalter, Wettfahrtkomitee und Segelanweisungen; Regelverweis jeweils zum Ausfüllen, ohne Lösungen.
-- [World Sailing: Racing Rules Question and Answer Service (Stand 30. April 2021)](https://sailing.org/tools/documents/2021booklet210430-[27262].pdf): englisch, 24 Seiten Frage-Antwort-Szenarien von Race Officials, nach Regelabschnitt geordnet. Die Antworten sind keine verbindlichen Auslegungen.
+Jede Frage ist ein Eintrag mit `question`, `type` (`single` oder `multiple`) und `answers`. Alle Fragen sind bewertet:
 
-**Hintergrund (keine Fragen)**
+- `correct` nennt die richtige(n) Antwort(en) und ist nur für den Host sichtbar (Schaltfläche „Reveal").
+- `explanation` ist der Lösungshinweis für den Host. Er nennt die maßgebliche Regel mit Nummer und begründet, warum die übrigen Antworten falsch sind.
+- Wo Flaggen eine Rolle spielen, sind sie als Abbildungen eingebunden, auch gestapelt (z. B. AP über A). Die Bilder stammen von Wikimedia Commons und werden per URL geladen.
 
-- [ÖSV: Richtlinien für Wettfahrtleiter](https://segelverband.at/fileadmin/user_upload/oesv-web/Dokumente-Website/Dokumente_-_Regatten/Dokumente-RO-Wettfahrtleiter/richtlinien_des_oesv_fuer_wettfahrtleiter.pdf)
-- [Swiss Sailing: Tag der Offiziellen 2025, Änderungen der Regeln (deutsch)](https://swiss-sailing.ch/_Resources/Persistent/4/5/b/1/45b144406be0815381f7728c5f97ffa41a199767/TdO25_Changes_RRS_DE.pdf)
-- [Sail Canada: 2021–2024 Rule Changes for Race Officers](https://www.sailing.ca/wp-content/uploads/2022/11/2021-2024-Rule-Changes-for-Race-Officers-1.pdf)
-- [Yachting NZ: Race Management Seminar](https://www.yachtingnz.org.nz/sites/default/files/2019-04/Race%20Management%20Seminar.pdf)
+## Verwenden
 
-Die Fragensammlungen sind urheberrechtlich geschützt; sie dienen hier als Vorlage, die Fragen in diesem Repo sind eigene Formulierungen bzw. stammen aus dem genannten BSV-Fragebogen.
+1. In QuiQui auf der Host-Seite „From GitHub" wählen, die Adresse dieses Repos eintragen und eine Datei auswählen.
+2. Die Teilnehmer treten per QR-Code oder über den Join-Link der `session_url` aus `config.yaml` bei.
+
+## Hinweise
+
+- Die Lösungen und Hinweise sind aus dem deutschen Text der Wettfahrtregeln 2025–2028 hergeleitet und ohne Gewähr. Sie sind keine amtliche Auslegung.
+- Die Fragen in `00-vorbereitungsfragen.yaml` stammen im Wortlaut aus dem Fragebogen des Bayerischen Segelverbands. Die Lösungen dazu hat der Fragebogen nicht vorgegeben; sie sind hier ergänzt.
+- Der Regeltext selbst ist urheberrechtlich geschützt und nicht Teil dieses Repos.

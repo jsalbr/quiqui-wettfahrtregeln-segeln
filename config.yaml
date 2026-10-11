@@ -10,10 +10,11 @@ session_url: dsv-wettfahrtregeln
 # Point it at <your-quiqui-host>/join/<session_url> yourself — QuiQui only displays it.
 # host_shortlink: https://t.ly/your-code
 
-# Optional: randomise each question's answer order (default false). A question can
-# override this with its own `shuffle: true|false`. The correct-answer letters are
-# remapped, so Reveal stays correct.
+# Optional: randomise each question's answer order (default false).
 shuffle: false
+
+# Optional: Show explanations on reveal of correct anser to participants (default true).
+reveal_explaination: true
 
 # Display name shown in the header and browser tab as "QuiQui: <title>"
 title: Wettfahrtregeln Segeln
