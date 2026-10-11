@@ -48,7 +48,7 @@
     wieder hinter der Linie, wobei es um eines der Enden gefahren ist. Was muss das
     Wettfahrtkomitee tun? (Mehrere Antworten möglich)
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/ICS_Uniform.svg" alt="Flagge Uniform" width="72">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/ICS_Uniform.svg" alt="Flagge Uniform" width="43">
   type: multiple
   answers:
     - "Einzelrückruf signalisieren und die identifizierten Boote UFD werten"
@@ -73,7 +73,7 @@
 - question: |
     Beim Entfernen der Flagge „X-Ray“ ...
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/ICS_X-ray.svg" alt="Flagge X-Ray" width="72">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/ICS_X-ray.svg" alt="Flagge X-Ray" width="43">
   type: single
   answers:
     - "muss ein Schallsignal gegeben werden"
@@ -96,7 +96,7 @@
 
     | Sierra | Blau | Charly | Minus |
     |:---:|:---:|:---:|:---:|
-    | <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/ICS_Sierra.svg" alt="Flagge Sierra" width="72"> | <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Zielmarke.svg" alt="Flagge Blau" width="72"> | <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/ICS_Charlie.svg" alt="Flagge Charly" width="72"> | <img src="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2030%2030%27%3E%3Crect%20x=%270.5%27%20y=%270.5%27%20width=%2729%27%20height=%2729%27%20fill=%27white%27%20stroke=%27%23231f20%27/%3E%3Crect%20x=%275%27%20y=%2713%27%20width=%2720%27%20height=%274%27%20fill=%27%23231f20%27/%3E%3C/svg%3E" alt="Minus" width="72"> |
+    | <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/ICS_Sierra.svg" alt="Flagge Sierra" width="43"> | <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Zielmarke.svg" alt="Flagge Blau" width="43"> | <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/ICS_Charlie.svg" alt="Flagge Charly" width="43"> | <img src="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2030%2030%27%3E%3Crect%20x=%270.5%27%20y=%270.5%27%20width=%2729%27%20height=%2729%27%20fill=%27white%27%20stroke=%27%23231f20%27/%3E%3Crect%20x=%275%27%20y=%2713%27%20width=%2720%27%20height=%274%27%20fill=%27%23231f20%27/%3E%3C/svg%3E" alt="Minus" width="43"> |
   type: single
   answers:
     - "es müssen Flagge „Sierra“ und „Blau“ gesetzt werden"

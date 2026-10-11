@@ -26,11 +26,11 @@
     (Mehrere Antworten möglich)
   type: multiple
   answers:
-    - '<img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/ICS_Papa.svg" alt="Flagge P" width="42"> Flagge P'
-    - '<img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/ICS_Zulu.svg" alt="Flagge Z" width="42"> <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/ICS_India.svg" alt="Flagge I" width="42"> Flagge Z mit Flagge I'
-    - '<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/ICS_X-ray.svg" alt="Flagge X" width="42"> Flagge X'
-    - '<img src="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%203%202%27%3E%3Crect%20width=%273%27%20height=%272%27%20fill=%27%23231f20%27/%3E%3C/svg%3E" alt="Schwarze Flagge" width="42"> Schwarze Flagge'
-    - '<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="42"> Flagge AP'
+    - '<img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/ICS_Papa.svg" alt="Flagge P" width="25"> Flagge P'
+    - '<img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/ICS_Zulu.svg" alt="Flagge Z" width="25"> <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/ICS_India.svg" alt="Flagge I" width="25"> Flagge Z mit Flagge I'
+    - '<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/ICS_X-ray.svg" alt="Flagge X" width="25"> Flagge X'
+    - '<img src="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%203%202%27%3E%3Crect%20width=%273%27%20height=%272%27%20fill=%27%23231f20%27/%3E%3C/svg%3E" alt="Schwarze Flagge" width="25"> Schwarze Flagge'
+    - '<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="25"> Flagge AP'
   correct:
     - A
     - B
@@ -50,7 +50,7 @@
     Vor dem Startsignal wird Flagge AP über Flagge A mit zwei Tönen gezeigt.
     Was bedeutet das?
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="96"><br><img src="https://upload.wikimedia.org/wikipedia/commons/8/85/ICS_Alfa.svg" alt="Flagge A" width="56">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="58"><br><img src="https://upload.wikimedia.org/wikipedia/commons/8/85/ICS_Alfa.svg" alt="Flagge A" width="34">
   type: single
   answers:
     - "Nicht gestartete Wettfahrten sind verschoben; heute keine Wettfahrten mehr"
@@ -65,17 +65,17 @@
 
     | Flaggen | Bedeutung |
     |:---:|---|
-    | <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="64"><br><img src="https://upload.wikimedia.org/wikipedia/commons/8/85/ICS_Alfa.svg" alt="Flagge A" width="34"> | **AP über A**: nicht gestartete Wettfahrten sind verschoben, heute keine Wettfahrten mehr (**A** richtig) |
-    | <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="64"><br><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/ICS_Hotel.svg" alt="Flagge H" width="34"> | **AP über H**: verschoben, weitere Signale an Land (**C**) |
-    | <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="64"><br><img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/ICS_Pennant_One.svg" alt="Zahlenwimpel 1" width="64"> | **AP über Zahlenwimpel 1–9**: Verschiebung um 1–9 Stunden (**D**) |
-    | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/ICS_November.svg" alt="Flagge N" width="34"> | **N**: Abbruch aller laufenden Wettfahrten, Rückkehr zum Startgebiet (**B**, Regel 32.3) |
-    | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/ICS_November.svg" alt="Flagge N" width="34"><br><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/ICS_Hotel.svg" alt="Flagge H" width="34"> | **N über H**: Abbruch, weitere Signale an Land |
-    | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/ICS_November.svg" alt="Flagge N" width="34"><br><img src="https://upload.wikimedia.org/wikipedia/commons/8/85/ICS_Alfa.svg" alt="Flagge A" width="34"> | **N über A**: Abbruch, heute keine Wettfahrten mehr |
+    | <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="38"><br><img src="https://upload.wikimedia.org/wikipedia/commons/8/85/ICS_Alfa.svg" alt="Flagge A" width="20"> | **AP über A**: nicht gestartete Wettfahrten sind verschoben, heute keine Wettfahrten mehr (**A** richtig) |
+    | <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="38"><br><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/ICS_Hotel.svg" alt="Flagge H" width="20"> | **AP über H**: verschoben, weitere Signale an Land (**C**) |
+    | <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="38"><br><img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/ICS_Pennant_One.svg" alt="Zahlenwimpel 1" width="38"> | **AP über Zahlenwimpel 1–9**: Verschiebung um 1–9 Stunden (**D**) |
+    | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/ICS_November.svg" alt="Flagge N" width="20"> | **N**: Abbruch aller laufenden Wettfahrten, Rückkehr zum Startgebiet (**B**, Regel 32.3) |
+    | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/ICS_November.svg" alt="Flagge N" width="20"><br><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/ICS_Hotel.svg" alt="Flagge H" width="20"> | **N über H**: Abbruch, weitere Signale an Land |
+    | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/ICS_November.svg" alt="Flagge N" width="20"><br><img src="https://upload.wikimedia.org/wikipedia/commons/8/85/ICS_Alfa.svg" alt="Flagge A" width="20"> | **N über A**: Abbruch, heute keine Wettfahrten mehr |
 
 - question: |
     Was gilt für einen Allgemeinen Rückruf nach Regel 29.2? (Mehrere Antworten möglich)
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/ICS_Repeat_One.svg" alt="Erster Hilfsstander" width="72">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/ICS_Repeat_One.svg" alt="Erster Hilfsstander" width="43">
   type: multiple
   answers:
     - "Er wird mit dem Ersten Hilfsstander und zwei Tönen signalisiert"
@@ -104,7 +104,7 @@
     Minute vor seinem Startsignal mit einem Teil des Rumpfes auf der Bahnseite der Startlinie.
     Was muss es tun?
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/ICS_India.svg" alt="Flagge India" width="72">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/ICS_India.svg" alt="Flagge India" width="43">
   type: single
   answers:
     - >-
