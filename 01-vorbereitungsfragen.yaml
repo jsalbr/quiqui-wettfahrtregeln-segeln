@@ -1,0 +1,52 @@
+# Vorbereitungsfragen zum Grundkurs für Wettfahrtleiter (Bayerischer Segelverband).
+# Quelle: Vorbereitungsfragen.pdf, Teil "Fragen für das Verständnis".
+# Ohne `correct`: reine Abstimmung, die Lösung wird mündlich besprochen.
+# Flaggen: eingebettet von Wikimedia Commons (upload.wikimedia.org), nicht im Repo.
+
+- question: "Ab wann befindet sich ein Boot in der Wettfahrt?"
+  type: single
+  answers:
+    - "ab Startsignal"
+    - "ab Ankündigungssignal"
+    - "ab Vorbereitungssignal"
+
+- question: "In den Segelanweisungen ist festgelegt: „Der geplante Zeitpunkt für das erste Ankündigungssignal ist an allen Wettfahrttagen 11:00 Uhr.“ Kann das Wettfahrtkomitee dies für den zweiten Tag auf 09:00 Uhr vorverlegen?"
+  type: single
+  answers:
+    - "ja, durch Änderung der Segelanweisungen"
+    - "nein, eine solche Änderung muss am Vortag rechtzeitig an der Tafel für Bekanntmachungen veröffentlicht werden."
+
+- question: |
+    Bei einem Start unter Flagge „Uniform“ ist ein Boot 30 Sekunden vor dem Startsignal im Dreieck, gebildet von den Enden der Startlinie und der ersten Bahnmarke, um beim Startsignal wieder hinter der Linie, wobei es um eines der Enden gefahren ist. Was muss das Wettfahrtkomitee tun? (Mehrere Antworten möglich)
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/ICS_Uniform.svg" alt="Flagge Uniform" width="72">
+  type: multiple
+  answers:
+    - "Einzelrückruf signalisieren und die identifizierten Boote UFD werten"
+    - "Allgemeinen Rückruf signalisieren"
+    - "Die Wettfahrt weiterlaufen lassen"
+    - "Die drei identifizierten Boote UFD werten"
+
+- question: |
+    Beim Entfernen der Flagge „X-Ray“ ...
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/ICS_X-ray.svg" alt="Flagge X-Ray" width="72">
+  type: single
+  answers:
+    - "muss ein Schallsignal gegeben werden"
+    - "müssen zwei Schallsignale gegeben werden"
+    - "müssen drei Schallsignale gegeben werden"
+    - "muss kein Schallsignal gegeben werden"
+
+- question: |
+    Die Wettfahrt wird in der zweiten Runde an der Luvbahnmarke abgekürzt, welche Flaggen müssen gesetzt werden?
+
+    | Sierra | Blau | Charly |
+    |:---:|:---:|:---:|
+    | <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/ICS_Sierra.svg" alt="Flagge Sierra" width="72"> | <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Zielmarke.svg" alt="Flagge Blau" width="72"> | <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/ICS_Charlie.svg" alt="Flagge Charly" width="72"> |
+  type: single
+  answers:
+    - "es müssen Flagge „Sierra“ und „Blau“ gesetzt werden"
+    - "es muss nur Flagge „Blau“ gesetzt werden"
+    - "es muss nur Flagge „Sierra“ gesetzt werden"
+    - "es muss Flagge „Sierra“ und „Charly“ mit „Minus“ gesetzt werden"

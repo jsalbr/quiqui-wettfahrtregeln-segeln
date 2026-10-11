@@ -1,0 +1,19 @@
+# Stable URL segment for the participant join link: /join/<session_url>
+# Participants can bookmark it — it stays the same across all questions.
+# Do not change it after the first live session: a new value breaks bookmarked links.
+#
+# Must be unique on the QuiQui instance (same value = same shared session), hence the
+# organisation prefix. Allowed: letters, digits, hyphen (-), underscore (_), 1–64 chars.
+session_url: dsv-wettfahrtregeln
+
+# Optional: a shortlink participants can type instead of the long /join/ URL.
+# Point it at <your-quiqui-host>/join/<session_url> yourself — QuiQui only displays it.
+# host_shortlink: https://t.ly/your-code
+
+# Optional: randomise each question's answer order (default false). A question can
+# override this with its own `shuffle: true|false`. The correct-answer letters are
+# remapped, so Reveal stays correct.
+shuffle: false
+
+# Display name shown in the header and browser tab as "QuiQui: <title>"
+title: Wettfahrtregeln Segeln
