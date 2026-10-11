@@ -1,0 +1,110 @@
+# Demo-Fragen: Ziel, Wertung und Zeitlimit (Regeln 35, A4–A6, A10, Definitionen).
+# Lösungen und Hinweise aus den Wettfahrtregeln Segeln 2025–2028 (deutscher Text) hergeleitet.
+
+- question: |
+    Wann geht ein Boot durchs Ziel (Definition „Durchs Ziel gehen“)?
+  type: single
+  answers:
+    - >-
+        Wenn nach seinem Startsignal irgendein Teil seines Rumpfes die Ziellinie von der
+        Bahnseite her überquert
+    - "Erst wenn sein Rumpf die Ziellinie vollständig überquert hat"
+    - "Wenn irgendein Teil seines Rumpfes die Ziellinie von der Vorstartseite her überquert"
+  correct: A
+  explanation: |
+    **Definition „Durchs Ziel gehen“**: Ein Boot geht durchs Ziel, wenn nach seinem Startsignal
+    irgendein Teil seines Rumpfes die Ziellinie von der Bahnseite her überquert.
+
+    - **B** falsch: Nach dem Durchs-Ziel-Gehen muss es die Ziellinie nicht vollständig
+      überqueren.
+    - **C** falsch: Maßgeblich ist die Richtung von der Bahnseite, nicht von der Vorstartseite.
+
+    Ausnahmen: Das Boot ist nicht durchs Ziel gegangen, wenn es nach dem Überqueren eine
+    Strafe nach Regel 44.2 annimmt, einen an der Linie gemachten Fehler berichtigt oder weiter
+    die Bahn absegelt.
+
+- question: |
+    Kein Boot hat die Bahn innerhalb des Wettfahrtzeitlimits abgesegelt.
+    Was muss das Wettfahrtkomitee tun?
+  type: single
+  answers:
+    - "Die Wettfahrt abbrechen"
+    - "Das Wettfahrtzeitlimit nachträglich verlängern"
+    - "Die Boote in der Reihenfolge werten, in der sie durchs Ziel gegangen sind"
+    - "Die Wettfahrt nur abbrechen, wenn ein Protest vorliegt"
+  correct: A
+  explanation: |
+    **Regel 35**: Segelt ein Boot innerhalb des Wettfahrtzeitlimits die Bahn ab, werden alle
+    Boote, die durchs Ziel gehen, ihren Zielplätzen entsprechend gewertet, außer die
+    Wettfahrt wird abgebrochen. Segelt kein Boot innerhalb des Limits die Bahn ab, muss das
+    Wettfahrtkomitee die Wettfahrt abbrechen.
+
+    - **A** richtig.
+    - **B** und **C** falsch: Ohne ein Boot innerhalb des Limits gibt es keine Wertung nach
+      Zielplätzen.
+    - **D** falsch: Der Abbruch ist zwingend und hängt nicht von einem Protest ab.
+
+- question: |
+    Welche Boote werden nach Regel A5.2 mit Punkten gewertet, die um eins größer sind als die
+    Anzahl der für die Serie gemeldeten Boote? (Mehrere Antworten möglich)
+  type: multiple
+  answers:
+    - "Ein Boot, das nicht die Bahn abgesegelt hat"
+    - "Ein Boot, das aufgegeben hat"
+    - "Ein Boot, das disqualifiziert wurde"
+    - "Ein Boot, das eine Wertungsstrafe nach Regel 44.3(a) angenommen hat"
+  correct:
+    - A
+    - B
+    - C
+  explanation: |
+    **Regel A5.2**: Ein Boot, das nicht die Bahn abgesegelt hat, aufgegeben hat oder
+    disqualifiziert wurde, wird mit Punkten gewertet, die um eins größer sind als die Anzahl
+    der für die Serie gemeldeten Boote.
+
+    - **A, B, C** richtig.
+    - **D** falsch: Ein Boot mit angenommener Wertungsstrafe erhält Punkte nach Regel 44.3(c),
+      also die Wertung ohne Strafe, verschlechtert um die festgelegten Punkte, standardmäßig
+      um 20 % der Wertung für Nicht-durchs-Ziel-gegangen.
+
+    Legen Ausschreibung oder Segelanweisungen Regel A5.3 fest, gilt statt der gemeldeten
+    Boote die Zahl der Boote, die ins Startgebiet gekommen sind.
+
+- question: |
+    Ein Boot war beim Startsignal auf der Bahnseite der Startlinie und hat nicht gestartet.
+    Welche Wertungsabkürzung gilt?
+  type: single
+  answers:
+    - "DNC"
+    - "DNS"
+    - "OCS"
+    - "UFD"
+  correct: C
+  explanation: |
+    **Regel A10 (Wertungsabkürzungen)**: OCS steht für „Nicht gestartet; auf der Bahnseite
+    der Startlinie bei seinem Startsignal und nicht gestartet, oder gegen Regel 30.1
+    verstoßen".
+
+    - **A** DNC: nicht gestartet, nicht ins Startgebiet gekommen.
+    - **B** DNS: nicht gestartet, aber nicht OCS und nicht DNC.
+    - **D** UFD: Disqualifikation nach Regel 30.3 (Flagge U).
+
+- question: |
+    Ein Boot wird disqualifiziert, nachdem es durchs Ziel gegangen ist.
+    Was gilt für die Zielplätze der anderen Boote?
+  type: single
+  answers:
+    - "Jedes Boot mit schlechterem Zielplatz rückt einen Platz nach vorne"
+    - "Die Zielplätze der anderen Boote bleiben unverändert, der Platz bleibt unbesetzt"
+    - "Nur das Boot direkt dahinter rückt einen Platz nach vorne"
+  correct: A
+  explanation: |
+    **Regel A6.1**: Wird ein Boot disqualifiziert oder gibt auf, nachdem es durchs Ziel
+    gegangen ist, oder wird es als Nicht die Bahn abgesegelt gewertet, muss jedes Boot mit
+    einem schlechteren Zielplatz einen Platz nach vorne gerückt werden.
+
+    - **B** und **C** falsch: Alle schlechter platzierten Boote rücken auf, nicht nur eines.
+
+    Anders bei Wiedergutmachung: Passt das Protestkomitee die Wertung eines Bootes an,
+    dürfen die Wertungen anderer Boote nicht geändert werden, außer es entscheidet anders
+    (Regel A6.2).

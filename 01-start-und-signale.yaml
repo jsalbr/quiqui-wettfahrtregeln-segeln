@@ -1,0 +1,129 @@
+# Demo-Fragen: Start und Signale (Regeln 26 bis 30, Wettfahrtsignale).
+# Lösungen und Hinweise aus den Wettfahrtregeln Segeln 2025–2028 (deutscher Text) hergeleitet.
+# Flaggen: eingebettet von Wikimedia Commons (upload.wikimedia.org), nicht im Repo.
+
+- question: |
+    Beim Ankündigungssignal wird die Klassenflagge gezeigt, das Schallsignal bleibt aber aus
+    (Hupe defekt). Wonach richtet sich die Zeitnahme für den Startablauf?
+  type: single
+  answers:
+    - "Nach dem optischen Signal"
+    - "Nach dem Schallsignal; ohne Schallsignal ist das Ankündigungssignal ungültig"
+    - "Die Wettfahrt muss verschoben werden"
+    - "Das Wettfahrtkomitee muss einen Allgemeinen Rückruf signalisieren"
+  correct: A
+  explanation: |
+    **Regel 26**: Die Zeiten müssen von den optischen Signalen genommen werden; das
+    Ausbleiben eines Schallsignals ist nicht zu beachten.
+
+    - **A** richtig: Die Flagge ist maßgeblich, der Ablauf läuft ohne Unterbrechung weiter.
+    - **B** falsch: Ein fehlender Ton macht das Signal nicht ungültig.
+    - **C** und **D** falsch: Verschiebung (Regel 27.3) und Allgemeiner Rückruf (Regel 29.2)
+      sind für andere Fälle vorgesehen, nicht für einen ausgebliebenen Ton.
+
+- question: |
+    Welche Flaggen können nach Regel 26 als Vorbereitungssignal gezeigt werden?
+    (Mehrere Antworten möglich)
+  type: multiple
+  answers:
+    - '<img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/ICS_Papa.svg" alt="Flagge P" width="42"> Flagge P'
+    - '<img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/ICS_Zulu.svg" alt="Flagge Z" width="42"> <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/ICS_India.svg" alt="Flagge I" width="42"> Flagge Z mit Flagge I'
+    - '<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/ICS_X-ray.svg" alt="Flagge X" width="42"> Flagge X'
+    - '<img src="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%203%202%27%3E%3Crect%20width=%273%27%20height=%272%27%20fill=%27%23231f20%27/%3E%3C/svg%3E" alt="Schwarze Flagge" width="42"> Schwarze Flagge'
+    - '<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="42"> Flagge AP'
+  correct:
+    - A
+    - B
+    - D
+  explanation: |
+    **Regel 26 (Tabelle)**: Als Vorbereitungssignal, vier Minuten vor dem Startsignal und mit
+    einem Schallsignal, wird gezeigt: P, I, Z, Z mit I, U oder die Schwarze Flagge.
+
+    - **A, B, D** richtig: P, Z mit I und die Schwarze Flagge stehen in der Tabelle.
+    - **C** falsch: Flagge X ist das Einzelrückrufsignal (Regel 29.1).
+    - **E** falsch: Flagge AP ist ein Verschiebungssignal (Regel 27.3).
+
+    Die Flagge bestimmt zugleich die Startstrafe: I nach Regel 30.1, Z nach 30.2, U nach 30.3,
+    Schwarz nach 30.4.
+
+- question: |
+    Vor dem Startsignal wird Flagge AP über Flagge A mit zwei Tönen gezeigt.
+    Was bedeutet das?
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="96"><br><img src="https://upload.wikimedia.org/wikipedia/commons/8/85/ICS_Alfa.svg" alt="Flagge A" width="56">
+  type: single
+  answers:
+    - "Nicht gestartete Wettfahrten sind verschoben; heute keine Wettfahrten mehr"
+    - "Alle laufenden Wettfahrten sind abgebrochen; Rückkehr zum Startgebiet"
+    - "Nicht gestartete Wettfahrten sind verschoben; weitere Signale an Land"
+    - "Verschiebung um 1 bis 9 Stunden ab der geplanten Startzeit"
+  correct: A
+  explanation: |
+    **Regel 27.3 und Wettfahrtsignale (Verschiebungssignale)**: Vor dem Startsignal kann das
+    Wettfahrtkomitee die Wettfahrt aus jedem Grund verschieben (Flagge AP, AP über H oder AP
+    über A, mit zwei Tönen) oder abbrechen (N, N über H oder N über A, mit drei Tönen).
+
+    | Flaggen | Bedeutung |
+    |:---:|---|
+    | <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="64"><br><img src="https://upload.wikimedia.org/wikipedia/commons/8/85/ICS_Alfa.svg" alt="Flagge A" width="34"> | **AP über A**: nicht gestartete Wettfahrten sind verschoben, heute keine Wettfahrten mehr (**A** richtig) |
+    | <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="64"><br><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/ICS_Hotel.svg" alt="Flagge H" width="34"> | **AP über H**: verschoben, weitere Signale an Land (**C**) |
+    | <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/ICS_Answer.svg" alt="Flagge AP" width="64"><br><img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/ICS_Pennant_One.svg" alt="Zahlenwimpel 1" width="64"> | **AP über Zahlenwimpel 1–9**: Verschiebung um 1–9 Stunden (**D**) |
+    | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/ICS_November.svg" alt="Flagge N" width="34"> | **N**: Abbruch aller laufenden Wettfahrten, Rückkehr zum Startgebiet (**B**, Regel 32.3) |
+    | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/ICS_November.svg" alt="Flagge N" width="34"><br><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/ICS_Hotel.svg" alt="Flagge H" width="34"> | **N über H**: Abbruch, weitere Signale an Land |
+    | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/ICS_November.svg" alt="Flagge N" width="34"><br><img src="https://upload.wikimedia.org/wikipedia/commons/8/85/ICS_Alfa.svg" alt="Flagge A" width="34"> | **N über A**: Abbruch, heute keine Wettfahrten mehr |
+
+- question: |
+    Was gilt für einen Allgemeinen Rückruf nach Regel 29.2? (Mehrere Antworten möglich)
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/ICS_Repeat_One.svg" alt="Erster Hilfsstander" width="72">
+  type: multiple
+  answers:
+    - "Er wird mit dem Ersten Hilfsstander und zwei Tönen signalisiert"
+    - >-
+        Das Ankündigungssignal für den neuen Start folgt eine Minute nach dem Entfernen des
+        Ersten Hilfsstanders
+    - "Er darf nur gegeben werden, wenn mehr als drei Boote zu früh gestartet sind"
+    - "Er wird mit Flagge X und einem Ton signalisiert"
+  correct:
+    - A
+    - B
+  explanation: |
+    **Regel 29.2**: Kann das Wettfahrtkomitee beim Startsignal Boote auf der Bahnseite oder
+    solche, für die Regel 30 gilt, nicht identifizieren, oder lag ein Fehler im Startverfahren
+    vor, kann es einen Allgemeinen Rückruf signalisieren (Erster Hilfsstander mit zwei Tönen).
+    Das Ankündigungssignal für den neuen Start folgt eine Minute nach dem Entfernen
+    (ein Ton).
+
+    - **A, B** richtig.
+    - **C** falsch: Die Regel nennt keine Mindestanzahl von Booten, sondern die fehlende
+      Identifizierbarkeit oder einen Fehler im Startverfahren.
+    - **D** falsch: Flagge X mit einem Ton ist der Einzelrückruf (Regel 29.1).
+
+- question: |
+    Flagge I wurde als Vorbereitungssignal gezeigt. Ein Boot befindet sich in der letzten
+    Minute vor seinem Startsignal mit einem Teil des Rumpfes auf der Bahnseite der Startlinie.
+    Was muss es tun?
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/ICS_India.svg" alt="Flagge India" width="72">
+  type: single
+  answers:
+    - >-
+        Eine der Verlängerungen der Startlinie überqueren und vollständig auf der Vorstartseite
+        sein, bevor es startet
+    - "Eine 360°-Drehung ausführen und danach normal starten"
+    - "Auf die Flagge X des Wettfahrtkomitees warten und erst dann zurückkehren"
+    - "Nichts, es wird ohne Anhörung disqualifiziert"
+  correct: A
+  explanation: |
+    **Regel 30.1 (I-Flaggen-Regel)**: Befindet sich ein Teil des Rumpfes in der letzten Minute
+    vor dem Startsignal auf der Bahnseite der Startlinie oder einer ihrer Verlängerungen, muss
+    das Boot eine der Verlängerungen überqueren, so dass der Rumpf vollständig auf der
+    Vorstartseite ist, bevor es startet.
+
+    - **B** falsch: Eine Drehung ist hier nicht vorgesehen.
+    - **C** falsch: Die Pflicht entsteht allein durch Flagge I, ein Signal des Komitees ist
+      dafür nicht nötig.
+    - **D** falsch: Die Disqualifikation ohne Anhörung gehört zu Flagge U (Regel 30.3).
+
+    Hält das Boot Regel 30.1 nicht ein, wird es als OCS gewertet (Regel A10), und das
+    Wettfahrtkomitee zeigt Flagge X mit einem Ton (Regel 29.1).
