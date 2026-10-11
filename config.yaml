@@ -14,7 +14,7 @@ session_url: dsv-wettfahrtregeln
 shuffle: false
 
 # Optional: Show explanations on reveal of correct anser to participants (default true).
-reveal_explaination: true
+reveal_explanation: true
 
 # Display name shown in the header and browser tab as "QuiQui: <title>"
 title: Wettfahrtregeln Segeln
